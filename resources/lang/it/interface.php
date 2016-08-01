@@ -38,7 +38,7 @@ return [
         'language' => 'Lingua: :locale',
         'login' => 'Login',
         'logout' => 'Logout',
-        'Register' => 'Registrazione',
+        'register' => 'Registrazione',
         'mobile' => [
             'toogleNavigation' => 'Mostra Menu'
         ]

@@ -21,7 +21,7 @@
                             <label for="email" class="col-md-4 control-label">@lang('interface.email.form.email')</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}">
+                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
 
                                 @if ($errors->has('email'))
                                 <span class="help-block">
@@ -34,7 +34,7 @@
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="fa fa-btn fa-envelope"></i> @lang('interface.email.form.submit')
+                                    @lang('interface.email.form.submit')
                                 </button>
                             </div>
                         </div>

@@ -12,35 +12,37 @@ return [
       |
      */
 
-    'email' => [
-        'panelHeading' => 'Reset Password',
-        'form' => [
-            'email' => 'E-Mail Address'
-        ],
-        'password' => [
-            'body' => 'Click here to reset your password'
-        ]
+    'app' => [
+        'login' => 'Login',
+        'register' => 'Register',
+        'homepage' => 'Laravel Italia',
+        'toogleNavigation' => 'Toogle navigation',
+        'language' => 'Lingua: :locale'
     ],
-    'login' => [
-        'panelHeading' => 'Login',
-        'passwordReset' => 'Forgot Your Password?',
+    'welcome' => [
+        'documentation' => 'Documentation',
+    ],
+    'home' => [
+        'panelHeading' => 'Welcome',
+        'panelBody' => 'You are logged in!'
+    ],
+    'reset' => [
+        'panelHeading' => 'Reset Password',
         'form' => [
             'email' => 'E-Mail Address',
             'password' => 'Password',
             'passwordConfirm' => 'Confirm Password',
-            'rememberMe' => 'Remember Me',
-            'submit' => 'Login'
+            'submit' => 'Reset Password'
         ],
     ],
-    'menu' => [
-        'brand' => 'Laravel Italia',
-        'homepage' => 'Home',
-        'language' => 'Language: :locale',
-        'login' => 'Login',
-        'logout' => 'Logout',
-        'register' => 'Register',
-        'mobile' => [
-            'toogleNavigation' => 'Toggle Navigation'
+    'email' => [
+        'panelHeading' => 'Reset Password',
+        'form' => [
+            'email' => 'E-Mail Address',
+            'submit' => 'Send E-Mail',
+        ],
+        'password' => [
+            'body' => 'Click here to reset your password'
         ]
     ],
     'register' => [
@@ -53,17 +55,15 @@ return [
             'submit' => 'Register'
         ],
     ],
-    'reset' => [
-        'panelHeading' => 'Reset Password',
+    'login' => [
+        'panelHeading' => 'Login',
+        'passwordReset' => 'Forgot Your Password?',
         'form' => [
             'email' => 'E-Mail Address',
             'password' => 'Password',
             'passwordConfirm' => 'Confirm Password',
-            'submit' => 'Reset Password'
+            'rememberMe' => 'Remember Me',
+            'submit' => 'Login'
         ],
-    ],
-    'welcome' => [
-        'panelHeading' => 'Welcome',
-        'panelBody' => 'Your Application\'s Landing Page.'
     ],
 ];

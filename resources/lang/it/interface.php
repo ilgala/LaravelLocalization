@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
       |--------------------------------------------------------------------------
       | Interface Language Lines
@@ -12,35 +11,36 @@ return [
       |
      */
 
-    'email' => [
-        'panelHeading' => 'Password Reset',
-        'form' => [
-            'email' => 'Indirizzo E-Mail'
-        ],
-        'password' => [
-            'body' => 'Clicca qui per resettare la password'
-        ]
+    'app' => [
+        'login' => 'Login',
+        'register' => 'Registrazione',
+        'homepage' => 'Laravel Italia',
+        'toogleNavigation' => 'Mostra Menu'
     ],
-    'login' => [
-        'panelHeading' => 'Login',
-        'passwordReset' => 'Password Dimenticata?',
+    'welcome' => [
+        'documentation' => 'Documentazione',
+    ],
+    'home' => [
+        'panelHeading' => 'Benvenuto',
+        'panelBody' => 'Hai effettuato il login!'
+    ],
+    'reset' => [
+        'panelHeading' => 'Password reset',
         'form' => [
             'email' => 'Indirizzo E-Mail',
             'password' => 'Password',
             'passwordConfirm' => 'Conferma Password',
-            'rememberMe' => 'Ricorda l\'accesso',
-            'submit' => 'Login'
+            'submit' => 'Effettua reset'
         ],
     ],
-    'menu' => [
-        'brand' => 'Laravel Italia',
-        'homepage' => 'Home',
-        'language' => 'Lingua: :locale',
-        'login' => 'Login',
-        'logout' => 'Logout',
-        'register' => 'Registrazione',
-        'mobile' => [
-            'toogleNavigation' => 'Mostra Menu'
+    'email' => [
+        'panelHeading' => 'Password Reset',
+        'form' => [
+            'email' => 'Indirizzo E-Mail',
+            'submit' => 'Invia E-Mail'
+        ],
+        'password' => [
+            'body' => 'Clicca qui per resettare la password'
         ]
     ],
     'register' => [
@@ -53,17 +53,15 @@ return [
             'submit' => 'Effettua registrazione'
         ],
     ],
-    'reset' => [
-        'panelHeading' => 'Password reset',
+    'login' => [
+        'panelHeading' => 'Login',
+        'passwordReset' => 'Password Dimenticata?',
         'form' => [
             'email' => 'Indirizzo E-Mail',
             'password' => 'Password',
             'passwordConfirm' => 'Conferma Password',
-            'submit' => 'Effettua reset'
+            'rememberMe' => 'Ricorda l\'accesso',
+            'submit' => 'Login'
         ],
-    ],
-    'welcome' => [
-        'panelHeading' => 'Benvenuto',
-        'panelBody' => 'La landing page della tua applicazione.'
     ],
 ];
